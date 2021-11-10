@@ -1,0 +1,86 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:indigo;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0;
+}
+
+.header_title {
+    margin-left: 20px;
+    font: 22px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.header_logo {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    margin: 0 20px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_option_l1 {
+    font-size: 10px;
+}
+
+.header_option_l2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header_option_basket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_basket_count {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header_search_input {
+    height: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.header_search_icon {
+    padding: 8px;
+    margin-left: 3px;
+    height: 22px;
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.header_profile_icon {
+    color: white;
+    margin: 5px;
+    margin-left: 0;
+    margin-right: 20px;
+}
