@@ -12,9 +12,6 @@
     min-width: 100px;
     border: 1px solid;
     border-radius: 10px;
-    box-sizing: border-box;
-    box-align: center;
-    box-shadow: 10%;
 }
 
 .product > img {
@@ -35,12 +32,13 @@
 
 .product > button {
     background-color: blue;
-    border: 1px solid;
+    border: none;
     margin-top: 10px;
     color: white;
+    border: 1px solid red;
 }
 
 .product > button:hover {
-    background-color: yellow;
-    color: black;
+    background-color: mediumseagreen;
+    color: white;
 }

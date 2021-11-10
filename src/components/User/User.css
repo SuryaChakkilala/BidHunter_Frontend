@@ -1,0 +1,44 @@
+.user {
+    margin: 20px;
+    background-color:white;
+    z-index: 1;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.user_home {
+    display: flex;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.user_home_icon {
+    margin-top: 24px;
+}
+
+.user_greeting {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user_name {
+    margin: 20px;   
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.user_info {
+    padding: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.user_info_entry {
+    padding: 5px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+}
